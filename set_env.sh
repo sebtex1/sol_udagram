@@ -1,0 +1,9 @@
+export POSTGRES_USERNAME="admin"
+export POSTGRES_PASSWORD="admin1234"
+export POSTGRES_HOST="localhost"
+export POSTGRES_DB="udagramdb"
+export AWS_BUCKET="udagram-esiea-sol"
+export AWS_REGION="us-east-1"
+export AWS_PROFILE="default"
+export JWT_SECRET="testing"
+export URL=http://localhost:8100
