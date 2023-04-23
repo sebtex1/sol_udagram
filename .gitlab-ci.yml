@@ -23,7 +23,7 @@ build:
     
 
 deploy:
-  stage: test
+  stage: deploy
   tags:
     - shell
   script:
