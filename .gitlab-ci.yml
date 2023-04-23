@@ -5,7 +5,7 @@ stages:
 build:
   stage: build
   tags: 
-    - docker
+    - shell
   script:
     - docker build -t m2-frontend udagram-frontend
     - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
@@ -25,6 +25,6 @@ build:
 deploy:
   stage: test
   tags:
-    - docker
+    - shell
   script:
     - docker-compose up --abort-on-container-exit
